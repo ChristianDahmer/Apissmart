@@ -1,0 +1,6 @@
+{
+  "name": "ApisSmart",
+  "description": "Assistente inteligente de gestão apícola, manejo de colmeias, sanidade, produção e estoque com IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

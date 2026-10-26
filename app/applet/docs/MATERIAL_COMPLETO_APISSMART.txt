@@ -1,0 +1,18 @@
+==================================================
+APISSMART v4.41 - DOSSIÊ TÉCNICO E COMERCIAL COMPLETO
+==================================================
+
+1. SOBRE O SISTEMA
+O ApisSmart é o aplicativo líder em inovação para apicultura, integrando geolocalização por satélite, inspeções inteligentes, controle financeiro, previsão do tempo apícola e rastreamento bluetooth.
+
+2. MÓDULOS DO APLICATIVO
+- Dashboard: Indicadores em tempo real de apiários, colmeias e produção estimada.
+- Mapa Geral & Satélite: Visualização geográfica com Esri ArcGIS e definição precisa de geolocalização por toque, com legenda rolando e otimizada.
+- Inspeções & Saúde: Registro de postura da rainha, pragas, alimentação e histórico completo por colmeia.
+- Tecnologias de Campo: Rastreamento por tags Bluetooth e modo mãos-livres por comando de voz.
+- Gestão Financeira: Controle completo de receitas, custos de insumos e margem de lucro por safra.
+- Sincronização: Firebase Firestore + Backup Google Drive.
+
+3. VERSÃO ATUAL
+Versão 4.41 (Outubro de 2026) - APK e AAB de Release compilados e disponíveis.
+==================================================
