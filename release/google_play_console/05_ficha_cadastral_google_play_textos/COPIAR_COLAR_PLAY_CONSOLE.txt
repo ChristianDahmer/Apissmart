@@ -1,0 +1,45 @@
+NOME DO APP (Máx 30 caracteres):
+ApisSmart: Gestão Apícola
+
+DESCRIPÇÃO CURTA (Máx 80 caracteres):
+Gestão zootécnica, sanitária e financeira para apicultura e meliponicultura.
+
+DESCRIPÇÃO COMPLETA (Até 4.000 caracteres):
+Transforme o manejo dos seus apiários e meliponários com o ApisSmart: o aplicativo definitivo desenvolvido sob medida para apicultores e meliponicultores profissionais!
+
+Chega de cadernos de campo molhados, fichas rasuradas ou anotações perdidas no pasto apícola. O ApisSmart coloca a gestão zootécnica, fitossanitária e financeira completa na palma da sua mão com funcionamento 100% OFFLINE!
+
+🐝 PRINCIPAIS RECURSOS DO APISSMART:
+
+⚡ 100% OFFLINE NO CAMPO
+Cadastre apiários, inspecione colmeias, registre colheitas e controle estoques mesmo nos locais mais remotos sem cobertura de sinal de celular ou internet. Todos os dados ficam salvos em banco de dados local criptografado e seguro.
+
+🎙️ MODO MÃOS-LIVRES & VOZ (HANDS-FREE)
+Inspecione suas colmeias falando! Você não precisa tirar as luvas apícolas cheias de própolis para digitar: o ApisSmart transcreve suas observações de campo em tempo real.
+
+🗺️ MAPEAMENTO GPS POR SATÉLITE
+Visualize todos os seus apiários e caixas-isca em fotos de satélite de alta definição. Calcule instantaneamente o raio de forrageamento e pasto apícola de 1,5 km a 3 km das suas abelhas.
+
+🍯 CONTROLE MINUCIOSO DE COLHEITA & MELGUEIRAS
+Rastreabilidade completa do mel colhido: registre peso líquido, tara, florada predominante, lote, teor de umidade e quantidade de melgueiras retiradas por colmeia.
+
+🔬 DIAGNÓSTICO SANITÁRIO COM INTELIGÊNCIA ARTIFICIAL
+Identifique precocemente pragas e anomalias na postura da rainha. Registre sintomas de Varroa destructor, traças de cera, loques e receba orientações de manejo técnico.
+
+📦 GESTÃO DE ESTOQUE & INSUMOS
+Controle inteligente de cera alveolada, caixas, quadros, fumegadores e alimentação energética/proteica. Receba alertas antes que os insumos essenciais acabem.
+
+💰 BALANÇO FINANCEIRO & CUSTO POR KG DE MEL
+Saiba o seu custo real de produção por quilo de mel e a lucratividade de cada apiário. Lance despesas de transporte, combustíveis, embalagens e registre vendas de mel, própolis, pólen e enxames.
+
+🗓️ CRONOGRAMA DE MANEJO & CALENDÁRIO FLORAL
+Receba alertas para troca de rainhas, divisões de enxames, alimentação artificial e acompanhe os períodos de florada da flora apícola da sua região.
+
+🏷️ SELOS DE QUALIDADE & CERTIFICAÇÃO (ARTE, ORGÂNICO, IG)
+Checklists integrados para obtenção de selos de pureza, Indicação Geográfica e normas sanitárias agropecuárias.
+
+🛡️ SOBERANIA DOS DADOS & PRIVACIDADE (LGPD)
+Seus dados pertencem exclusivamente a você. Faça backup completo (JSON/DB) para o Google Drive ou exporte relatórios em PDF com um toque.
+
+🎁 TESTE GRÁTIS POR 30 DIAS!
+Baixe agora e experimente todos os recursos liberados sem burocracia. Suporte direto com o desenvolvedor Christian Dahmer via WhatsApp (51) 99677-6214.

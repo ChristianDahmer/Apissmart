@@ -186,8 +186,16 @@ fun HandsFreeFieldDialog(
             return
         }
         try {
+            if (!SpeechRecognizer.isRecognitionAvailable(context)) {
+                recognitionErrorState = "Reconhecimento de voz não suportado neste aparelho."
+                return
+            }
             speechRecognizer?.destroy()
             val recognizer = SpeechRecognizer.createSpeechRecognizer(context)
+            if (recognizer == null) {
+                recognitionErrorState = "Serviço de voz indisponível."
+                return
+            }
             speechRecognizer = recognizer
             val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
                 putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)

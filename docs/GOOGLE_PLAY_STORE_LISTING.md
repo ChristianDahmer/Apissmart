@@ -1,86 +1,68 @@
-# ApisSmart - Ficha Completa para Publicação na Google Play Store
+# 📋 Ficha de Publicação Google Play Console — ApisSmart
+
+## 1. Informações Básicas do Aplicativo
+
+* **Nome do Aplicativo (Máx 30 caracteres):**
+  `ApisSmart: Gestão Apícola`
+
+* **Descrição Curta (Máx 80 caracteres):**
+  `Gestão zootécnica, sanitária e financeira para apicultura e meliponicultura.`
+
+* **Categoria:** Produtividade / Ferramentas / Agronegócio
+* **Público-alvo:** 18 anos ou mais (Profissionais e Produtores)
+* **Preço:** Gratuito para baixar com 30 dias de teste grátis (opção de assinatura Pro e vitalícia via Google Play Billing).
+* **Desenvolvedor:** Christian Dahmer
+* **E-mail de Suporte:** `christiandahmer@gmail.com`
+* **WhatsApp Oficial:** `+55 (51) 99677-6214`
+* **Site / Política de Privacidade:** `https://apissmart.com.br/politica-de-privacidade.html`
 
 ---
 
-## 1. Dados Básicos do Aplicativo (Metadados Oficiais)
-
-* **Nome do Aplicativo (App Title):** `ApisSmart: Gestão de Apiários`
-  *(29 caracteres - em total conformidade com a política de até 30 caracteres do Google Play, sem emojis, sem palavras proibidas como "Melhor" ou "Grátis")*
-
-* **Breve Descrição (Short Description - até 80 caracteres):**
-  `Gestão inteligente de apiários, colmeias, inspeções com IA, estoque e finanças.`
-  *(79 caracteres)*
-
-* **Categoria:** Produtividade / Agronegócio
-* **Classificação de Conteúdo:** Livre (Todos)
-* **Público-alvo:** Apicultores profissionais, meliponicultores, cooperativas e técnicos agrícolas.
-* **Preço:** Gratuito (com recursos de produtividade apícola)
-
----
-
-## 2. Descrição Completa (Full Description - até 4.000 caracteres)
+## 2. Descrição Completa (Até 4.000 caracteres)
 
 ```text
-O ApisSmart é a solução definitiva para apicultores e meliponicultores que buscam modernizar a gestão de seus apiários, aumentar a produtividade de mel e garantir a sanidade rigorosa de suas colmeias com o poder da Inteligência Artificial.
+Transforme o manejo dos seus apiários e meliponários com o ApisSmart: o aplicativo definitivo desenvolvido sob medida para apicultores e meliponicultores profissionais!
 
-Desenvolvido para uso real no campo, o ApisSmart funciona perfeitamente offline, permitindo o registro de inspeções, manejos e colheitas diretamente ao lado das caixas, mesmo em locais remotos sem sinal de internet.
+Chega de cadernos de campo molhados, fichas rasuradas ou anotações perdidas no pasto apícola. O ApisSmart coloca a gestão zootécnica, fitossanitária e financeira completa na palma da sua mão com funcionamento 100% OFFLINE!
 
-🍯 RECURSOS PRINCIPAIS:
+🐝 PRINCIPAIS RECURSOS DO APISSMART:
 
-🐝 GESTÃO COMPLETA DE APIÁRIOS E COLMEIAS
-• Cadastro detalhado de apiários com coordenadas GPS automáticas.
-• Mapa de satélite em alta definição (Esri World Imagery) para visualização aérea da vegetação e relevo.
-• Cálculo dinâmico do raio de voo e pasto apícola conforme a espécie (Apis mellifera, Mandaçaia, Jataí e outras nativas).
-• Identificação rápida por QR Code: gere etiquetas exclusivas para cada colmeia e acesse o histórico completo em segundos com o scanner integrado.
-• Acompanhamento zoológico: idade e linhagem da rainha, defensividade, número de quadros e força populacional.
+⚡ 100% OFFLINE NO CAMPO
+Cadastre apiários, inspecione colmeias, registre colheitas e controle estoques mesmo nos locais mais remotos sem cobertura de sinal de celular ou internet. Todos os dados ficam salvos em banco de dados local criptografado e seguro.
 
-🎙️ INSPEÇÕES DE CAMPO COM MODO VOZ E IA
-• Modo Voz com Transcrição Automática: dite o relato da inspeção sem precisar tirar os macacões ou luvas sujas de própolis.
-• Diagnóstico Sanitário com IA: a inteligência artificial analisa o relato bruto da colmeia e detecta indícios de Varroa destructor, traça da cera, loque, falta de postura ou enxame zanganeiro.
-• Análise Fotográfica de Quadros: envie fotos dos favos para avaliação da área de cria e sanidade celular.
+🎙️ MODO MÃOS-LIVRES & VOZ (HANDS-FREE)
+Inspecione suas colmeias falando! Você não precisa tirar as luvas apícolas cheias de própolis para digitar: o ApisSmart transcreve suas observações de campo em tempo real.
 
-📅 CRONOGRAMA DE MANEJOS E CALENDÁRIO INTELIGENTE
-• Calendário compacto com alternância entre visão semanal e mensal.
-• Sugestões automáticas de tarefas apícolas: alimentação, troca de cera, introdução de rainha, colheita e tratamentos.
-• Notificações no dia do manejo para você nunca perder o momento exato de expansão ou alimentação.
+🗺️ MAPEAMENTO GPS POR SATÉLITE
+Visualize todos os seus apiários e caixas-isca em fotos de satélite de alta definição. Calcule instantaneamente o raio de forrageamento e pasto apícola de 1,5 km a 3 km das suas abelhas.
 
-⚖️ CONTROLE DE COLHEITA E PRODUÇÃO
-• Registro de desoperculação e pesagem por colmeia, apiário e tipo de florada.
-• Gráficos comparativos de evolução produtiva ao longo das safras.
-• Rastreabilidade de lotes de mel para certificação e agregação de valor.
+🍯 CONTROLE MINUCIOSO DE COLHEITA & MELGUEIRAS
+Rastreabilidade completa do mel colhido: registre peso líquido, tara, florada predominante, lote, teor de umidade e quantidade de melgueiras retiradas por colmeia.
 
-📦 ESTOQUE E ALERTA DE INSUMOS
-• Controle de caixas, melgueiras, quadros, cera alveolada, alimentação e medicamentos.
-• Menu combo de categorias com cadastro de novos insumos personalizados.
-• Alerta visual automático de estoque baixo para reposição antecipada.
+🔬 DIAGNÓSTICO SANITÁRIO COM INTELIGÊNCIA ARTIFICIAL
+Identifique precocemente pragas e anomalias na postura da rainha. Registre sintomas de Varroa destructor, traças de cera, loques e receba orientações de manejo técnico.
 
-💰 GESTÃO FINANCEIRA RURAL
-• Controle detalhado de receitas (venda de mel, própolis, pólen, cera e enxames) e despesas de campo (combustível, açúcar, equipamentos).
-• Balanço financeiro com cálculo de lucratividade e fluxo de caixa.
+📦 GESTÃO DE ESTOQUE & INSUMOS
+Controle inteligente de cera alveolada, caixas, quadros, fumegadores e alimentação energética/proteica. Receba alertas antes que os insumos essenciais acabem.
 
-🤖 CONSULTOR APÍCOLA COM IA E FERRAMENTAS EXTRAS
-• Assistente apícola em tempo real para dúvidas sobre nutrição, multiplicação e floradas regionais.
-• Calculadora Nutricional de xarope energético (1:1 e 2:1) e pastas proteicas com base no número de colmeias.
-• Exportação de relatórios gerenciais completos.
+💰 BALANÇO FINANCEIRO & CUSTO POR KG DE MEL
+Saiba o seu custo real de produção por quilo de mel e a lucratividade de cada apiário. Lance despesas de transporte, combustíveis, embalagens e registre vendas de mel, própolis, pólen e enxames.
 
-Eleve o nível do seu apiário com tecnologia de ponta. Baixe o ApisSmart e tenha o controle total das suas abelhas na palma da sua mão!
+🗓️ CRONOGRAMA DE MANEJO & CALENDÁRIO FLORAL
+Receba alertas para troca de rainhas, divisões de enxames, alimentação artificial e acompanhe os períodos de florada da flora apícola da sua região.
+
+🏷️ SELOS DE QUALIDADE & CERTIFICAÇÃO (ARTE, ORGÂNICO, IG)
+Checklists integrados para obtenção de selos de pureza, Indicação Geográfica e normas sanitárias agropecuárias.
+
+🛡️ SOBERANIA DOS DADOS & PRIVACIDADE (LGPD)
+Seus dados pertencem exclusivamente a você. Faça backup completo (JSON/DB) para o Google Drive ou exporte relatórios em PDF com um toque.
+
+🎁 TESTE GRÁTIS POR 30 DIAS!
+Baixe agora e experimente todos os recursos liberados sem burocracia. Suporte direto com o desenvolvedor Christian Dahmer via WhatsApp (51) 99677-6214.
 ```
 
 ---
 
-## 3. Palavras-Chave (Keywords / ASO - App Store Optimization)
+## 3. Palavras-Chave e Tags de Busca (ASO)
 
-`apicultura, apiário, colmeia, mel, abelhas, gestão apícola, apis mellifera, meliponicultura, abelhas sem ferrão, jatai, mandacaia, manejo de colmeias, varroa, colheita de mel, controle de apiário, zootecnia, agronegócio, registro apícola, apicultor, caderno de campo apícola`
-
----
-
-## 4. Textos Promocionais para os Screenshots da Google Play Store
-
-* **Tela 1 (Dashboard):** "Controle Total do seu Apiário na Palma da Mão"
-* **Tela 2 (Mapa e Satélite):** "Visão Aérea em Alta Definição e Raio de Voo por Espécie"
-* **Tela 3 (Inspeções e Modo Voz):** "Relato de Campo por Voz sem Tirar as Luvas com Diagnóstico de IA"
-* **Tela 4 (Colmeias e QR Code):** "Identificação Rápida de Colmeias com Etiquetas QR Code"
-* **Tela 5 (Colheita e Produção):** "Gráficos de Safra e Produtividade por Florada"
-* **Tela 6 (Cronograma):** "Calendário Inteligente com Sugestões de Manejo Apícola"
-* **Tela 7 (Estoque e Insumos):** "Controle de Caixas, Cera e Alertas de Estoque Baixo"
-* **Tela 8 (Finanças do Mel):** "Balanço Financeiro e Rentabilidade da sua Produção"
+`apicultura, meliponicultura, apicultor, abelhas, colmeia, mel, própolis, gestão apícola, pasto apícola, varroa destructor, rainha, agrotech, apis mellifera, agronegócio, meliponário`

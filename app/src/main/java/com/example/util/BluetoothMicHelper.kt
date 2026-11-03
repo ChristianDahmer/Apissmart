@@ -74,7 +74,19 @@ class BluetoothMicHelper(private val context: Context) {
             addAction(Intent.ACTION_HEADSET_PLUG)
         }
         try {
-            context.registerReceiver(receiver, filter)
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+                context.registerReceiver(receiver, filter, Context.RECEIVER_NOT_EXPORTED)
+            } else {
+                context.registerReceiver(receiver, filter)
+            }
+        } catch (_: SecurityException) {
+            try {
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+                    context.registerReceiver(receiver, filter, Context.RECEIVER_EXPORTED)
+                }
+            } catch (_: Exception) {
+                // Ignore fallback
+            }
         } catch (e: Exception) {
             e.printStackTrace()
         }

@@ -120,9 +120,23 @@ class ApisSmartViewModel(application: Application) : AndroidViewModel(applicatio
     private val _licenseServerMessage = MutableStateFlow<String?>(null)
     val licenseServerMessage: StateFlow<String?> = _licenseServerMessage.asStateFlow()
 
+    // UI Feedback States (Initialized before init)
+    private val _userMessage = MutableStateFlow<String?>(null)
+    val userMessage: StateFlow<String?> = _userMessage.asStateFlow()
+
     init {
-        checkLicenseStartup()
-        loadDatabaseSummary()
+        viewModelScope.launch {
+            try {
+                checkLicenseStartup()
+            } catch (e: Throwable) {
+                android.util.Log.e("ApisSmartViewModel", "Startup license check handled safely", e)
+            }
+            try {
+                loadDatabaseSummary()
+            } catch (e: Throwable) {
+                android.util.Log.e("ApisSmartViewModel", "Startup database summary handled safely", e)
+            }
+        }
     }
 
     fun loadDatabaseSummary() {
@@ -185,11 +199,15 @@ class ApisSmartViewModel(application: Application) : AndroidViewModel(applicatio
     }
 
     fun checkLicenseStartup() {
-        val current = licenseManager.checkOnStartup()
-        if (current.status == LicenseStatus.EXPIRED) {
-            _userMessage.value = "🔒 Licença ApisSmart expirada. Ative sua chave de acesso ou valide no servidor."
-        } else if (current.status == LicenseStatus.TRIAL && current.daysRemaining <= 3) {
-            _userMessage.value = "⏳ Atenção: Restam apenas ${current.daysRemaining} dias de avaliação."
+        try {
+            val current = licenseManager.checkOnStartup()
+            if (current.status == LicenseStatus.EXPIRED) {
+                _userMessage.value = "🔒 Licença ApisSmart expirada. Ative sua chave de acesso ou valide no servidor."
+            } else if (current.status == LicenseStatus.TRIAL && current.daysRemaining <= 3) {
+                _userMessage.value = "⏳ Atenção: Restam apenas ${current.daysRemaining} dias de avaliação."
+            }
+        } catch (e: Exception) {
+            android.util.Log.e("ApisSmartViewModel", "checkLicenseStartup exception handled", e)
         }
     }
 
@@ -335,9 +353,6 @@ class ApisSmartViewModel(application: Application) : AndroidViewModel(applicatio
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0)
 
     // UI Feedback States
-    private val _userMessage = MutableStateFlow<String?>(null)
-    val userMessage: StateFlow<String?> = _userMessage.asStateFlow()
-
     private val _isAiAnalyzing = MutableStateFlow(false)
     val isAiAnalyzing: StateFlow<Boolean> = _isAiAnalyzing.asStateFlow()
 
